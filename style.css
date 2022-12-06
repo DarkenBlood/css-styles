@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;   
+}
+
+*::selection{
+    background-color: #2e2e2e;
+}
+
+body{
+    background-color: #e84118;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #2f3640;
+    border-radius: 40px;
+    padding: 10px;
+    transform: scale(4, 4);
+    /* temporal */
+}
+
+.search-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e84118;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+
+.search-input{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+}
